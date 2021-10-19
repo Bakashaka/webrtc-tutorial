@@ -53,7 +53,6 @@ module.exports = {
             'basic/ice-stun-turn/index',
             'basic/sdp-introduction/index',
             'basic/mesh-mcu-sfu/index',
-            // TODO
           ],
           '连接流程': [
             'connection/peer-connection/index',
@@ -72,8 +71,8 @@ module.exports = {
           '编程模型': [
             'code/criticalsection/index', // FIXME critical-section
             'code/sigslot/index',
+            'code/thread-mode/index',
             'code/smart-pointers/index',
-            // TODO
           ],
           '常见问题': [
             '[获取视频旋转角度](https://webrtc.mthli.com/lost/rtp-introduction/#%E8%8E%B7%E5%8F%96%E8%A7%86%E9%A2%91%E6%97%8B%E8%BD%AC%E8%A7%92%E5%BA%A6)',
